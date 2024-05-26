@@ -25,6 +25,7 @@ public class Angajat {
 	public void afisare() {
 		System.out.println("Nume: " + nume);
         System.out.println("Id angajat: " + idAngajat);
+        System.out.println();
 	}
 	
 	

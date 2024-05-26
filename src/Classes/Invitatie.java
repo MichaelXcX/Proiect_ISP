@@ -13,4 +13,11 @@ public class Invitatie {
 	public void setStatus(Status status) {
 		this.status = status;
 	}
+	
+	public void afisare() {
+		System.out.println("Id: " + id);
+		System.out.println("Meeting id: " + meetingId);
+		System.out.println("Status: " + status);
+		System.out.println();
+	}
 }

@@ -3,7 +3,7 @@ package Classes;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Administrator extends Angajat {
+public class Administrator extends Manager {
 	public Administrator(String nume, int idAngajat) {
 		super(nume, idAngajat);
 	}

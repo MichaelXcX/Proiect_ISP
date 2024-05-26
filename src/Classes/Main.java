@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		// Create a new Utilizator
+		// Create a new Utilizator 
         Utilizator utilizator = new Utilizator("user", "password");
         Utilizator utilizator2 = new Utilizator("user2", "password2");
         Utilizator utilizator3 = new Utilizator("user3", "password3");
@@ -35,7 +35,10 @@ public class Main {
         
         // Display the calendar
         calendar.afisare();        
-		
+        
+        // Create Invitation
+//        Invitatie invitation = new Invitatie("Invitation", meeting, angajat);
+//        invitation.afisare();
         
         
 	}
